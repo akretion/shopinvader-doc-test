@@ -11,7 +11,7 @@
       {{ content }}
     {% endcapture %}
     {{ content_markdown }}
-     {% assign text = markdown | markdownify %}
+     {% assign text = content_markdown | markdownify %}
      {% include toc.html html=text ordered=true %}
   </body>
 </html>
