@@ -5,9 +5,8 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
-    * TOC
-    {:toc}
-
+    {% include toc.html html=content %}
+    
     test
     {{ content }}
   </body>
