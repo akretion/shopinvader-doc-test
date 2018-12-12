@@ -18,3 +18,4 @@ gfgf
 ---
 test
 ---
+{% include toc.html html=text ordered=true %}
