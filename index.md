@@ -2,20 +2,10 @@
 layout: default
 title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
-kjjlkkjkl
-
-<h2>hhhh</h2>
-
-# hjhjhj
-
-
-kklk
-###
-
-gfgfgf
-gfgf
----
-test
----
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 {% include toc.html html=text ordered=true %}
