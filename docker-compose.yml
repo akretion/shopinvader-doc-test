@@ -1,0 +1,6 @@
+version: '3'
+services:
+    jekyll:
+        image: jekyll/jekyll
+        volumes:
+            - .:/srv/jekyll
